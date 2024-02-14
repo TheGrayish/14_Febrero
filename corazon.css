@@ -1,0 +1,302 @@
+/*
+body {
+	position: relative;
+	background-color: black;
+	margin: 0;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+*/
+
+
+       /*le damos un color de fondo a todo el cuerpo*/
+    body {
+        background-color: #0b1522;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /*accedemos al container que envuelve todas las palabras*/
+    .container {
+        width: 500px;
+        height: 500px;
+        /*le dimos ancho y alto , ahora le vamos a dar un borde 
+        para que se vea*/
+        /*border: 3px solid blue; quitamos el borde del contenedor principal*/
+        position: relative;
+    }
+	.amor{
+		position: absolute;
+		right: 185px;
+		bottom: 130px;
+		color: red;
+		font-size: 30px;
+      cursor: pointer;
+		background: none;
+		border: none;
+	 }
+    /*ahora accedemos a las clases de todas las palabras*/
+    p {
+        color: red;
+        /*damos una sombra*/
+        box-shadow: -10px 15px 100px #f20044;
+        /*accedemos a todos los parrafos */
+        animation: latiendo 0.6s linear infinite;
+    }
+      /*ahora accederemos a las clases de todas las palabras*/
+
+      .a{
+         /*posicionaremos absolute para que tome como referencia el contenedor principal y ajustemos el right y bottom segun queramos*/
+         position: absolute;
+         right: 250px;
+         bottom: 0;    
+      }
+
+
+      .b{
+            position: absolute;
+            right: 235px;
+            bottom: 15px;
+         }
+         .c{
+            position: absolute;
+            right: 215px;
+            bottom: 25px;
+         }.d{
+            position: absolute;
+            right: 205px;
+            bottom: 35px;
+         }.e{
+            position: absolute;
+            right: 190px;
+            bottom: 45px;
+         }.f{
+            position: absolute;
+            right: 175px;
+            bottom: 60px;
+         }.g{
+            position: absolute;
+            right: 160px;
+            bottom: 75px;
+         }.h{
+            position: absolute;
+            right: 145px;
+            bottom: 90px;
+         }.i{
+            position: absolute;
+            right: 140px;
+            bottom: 105px;
+         }.j{
+            position: absolute;
+            right: 125px;
+            bottom: 120px;
+         }.k{
+            position: absolute;
+            right: 110px;
+            bottom: 135px;
+         }.l{
+            position: absolute;
+            right: 100px;
+            bottom: 150px;
+         }.m{
+            position: absolute;
+            right: 100px;
+            bottom: 165px;
+         }.n{
+            position: absolute;
+            right: 400px;
+            bottom: 165px;
+         }.o{ 
+            position: absolute;
+            right: 100px;
+            bottom: 180px;
+         }.p{
+            position: absolute;
+            right: 105px;
+            bottom: 195px;
+         }.q{
+            position: absolute;
+            right: 110px;
+            bottom: 210px;
+         }.r{
+            position: absolute;
+            right: 120px;
+            bottom: 225px;
+         }.s{
+            position: absolute;
+            right: 130px;
+            bottom: 240px;
+         }.t{
+            position: absolute;
+            right: 140px;
+            bottom: 255px;
+         }.u{
+            position: absolute;
+            right: 175px;
+            bottom: 270px;
+         }.v{
+            position: absolute;
+            right: 205px;
+            bottom: 255px;
+         }.w{
+            position: absolute;
+            right: 220px;
+            bottom: 240px;
+         }.x{
+            position: absolute;
+            right: 230px;
+            bottom: 225px;
+         }.y{
+            position: absolute;
+            right: 240px;
+            bottom: 210px;
+         }.z{
+            position: absolute;
+            right: 250px;
+            bottom: 200px;
+
+          /*hasta aqui tendriamos el medio corazon , tenes que seguir posicinando las palabras*/
+         }
+
+         .primera-{
+            position: absolute;
+            left: 190px;
+            bottom: 15px;
+         }
+         .segunda-{
+            position: absolute;
+            right: 285px;
+            bottom: 25px;
+         }
+         .tercera-{
+            position: absolute;
+            right: 295px;
+            bottom: 35px;
+         }
+		 
+         .cuarta-{
+            position: absolute;
+            right: 310px;
+            bottom: 45px;
+         }
+         .quinta-{
+            position: absolute;
+            right: 325px;
+            bottom: 60px;
+         }
+         .sexta-{
+            position: absolute;
+            right: 340px;
+            bottom: 75px;
+         }
+         .septima-{
+            position: absolute;
+            right: 355px;
+            bottom: 90px;
+         }
+         .octava-{
+            position: absolute;
+            right: 360px;
+            bottom: 105px;
+         }
+         .novena-{
+            position: absolute;
+            right: 375px;
+            bottom: 120px;
+         }
+         .decima-{
+            position: absolute;
+            right: 390px;
+             bottom: 135px;
+         }
+         .decima-1{
+            position: absolute;
+            right: 400px;
+            bottom: 150px;
+         }
+         .decima-4{
+            position: absolute;
+            right: 400px;
+            bottom: 180px;
+         }
+         .decima-5{
+            position: absolute;
+            right: 395px;
+            bottom: 195px;
+         }.decima-6{
+            position: absolute;
+            right: 390px;
+            bottom: 210px;
+         }
+         .decima-7{
+            position: absolute;
+            right: 380px;
+            bottom: 225px;
+         }
+         .decima-8{
+            position: absolute;
+            right: 370px;
+            bottom: 240px;
+         }
+         .decima-9{
+            position: absolute;
+            right:360px ;
+            bottom: 255px;
+         }
+         .vigesima-{
+            position: absolute;
+            right: 325px;
+            bottom: 270px;
+         }
+         .vigesima-1{
+            position: absolute;
+            right: 290px;
+            bottom: 255px;
+         }
+         .vigesima-2{
+            position: absolute;
+            right: 285px;
+            bottom: 240px;
+         }
+         .vigesima-3{
+            position: absolute;
+            right: 275px;
+            bottom: 225px;
+         }
+         /* .vigesima-4{
+            position: absolute;
+            right: 260x;
+			bottom: 210px;
+         } */
+         .vigesima-5{
+            position: absolute;
+            right: 287px;
+            bottom: 210px;
+         }
+         /* .vigesima-6{
+            position: absolute;
+            right: 285px;
+            bottom: 200px;
+         }
+         .vigesima-7{
+            position: absolute;
+            right: 270px;
+            bottom: 190px;
+         } */
+
+         /*podemos poner cualquier palabra */
+         /*POR ULTIMO VAMOS A REALIZAR LA ANIMACION DE LATIR*/
+        /* Modifica tu regla de animación original para agregar la clase específica */
+      .p {
+         color: red;
+         box-shadow: -10px 15px 100px #f20044;
+         animation: latiendo 0.6s linear infinite;
+      } 
+
+         @keyframes latiendo {
+            0%{transform: scale(1.4);}
+            50%{transform: scale(2.)}
+         }  
